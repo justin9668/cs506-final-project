@@ -25,20 +25,31 @@ We will use `nba_api` to pull:
 ---
 
 ## Modeling Plan
+- **Logistic Regression** to predict whether a player will go over or under their prop line.
+- **Linear Regression** for predicting raw stats like points or rebounds.
+- **K-Nearest Neighbors (KNN)** to compare similar players or matchups using distance-based similarity.
+- **Clustering (K-Means)** to explore player or team groupings based on stat patterns.
+We'll decide what works best once we explore the data more.
 
 ---
 
 ## Visualization
+We’ll make basic visualizations to help us understand trends and model performance, like:
+- Line plots of player stats over time.
+- Scatter plots showing relationships between features.
+- Heatmaps comparing teams or matchups.
 
 ---
 
 ## Test Plan
-
----
+We'll train on 80% of the games and test on the final 20% to see how well our models generalize. We'll also:
+- Compare our predictions to simple baselines (like season averages).
+- Use metrics like accuracy or MAE depending on the task.
+- Try cross-validation if needed for more reliable results.
 
 ## Group Members
 - Alim (ackura@bu.edu)
 - Ash (payaalayushman@gmail.com)
-- Jonah (jonahrothman@me.com)
+- Jonah (jonahr@bu.edu)
 - Justin (justin1@bu.edu)
 - Shawn (xianghu0605@gmail.com)
