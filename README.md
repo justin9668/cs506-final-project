@@ -37,8 +37,8 @@ We will use `nba_api` to pull:
 ---
 
 ## Group Members
-- Alim
-- Ash
-- Jonah
-- Justin
-- Shawn
+- Alim (ackura@bu.edu)
+- Ash (payaalayushman@gmail.com)
+- Jonah (jonahrothman@me.com)
+- Justin (justin1@bu.edu)
+- Shawn (xianghu0605@gmail.com)
