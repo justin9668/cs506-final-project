@@ -1,4 +1,4 @@
-# NBA Player Prop Prediction Project
+# NBA Player and Team Prediction Project
 
 ## Project Description
 We will use the [nba_api](https://github.com/swar/nba_api) and historical betting datasets to collect NBA player game logs and team statistics in order to **predict whether a player will go over or under a given prop line** (e.g., points, rebounds, assists). We will also extend this idea to **team-based predictions**, such as forecasting the final team scores or game winners.
