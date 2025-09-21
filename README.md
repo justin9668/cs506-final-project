@@ -24,9 +24,9 @@ We will use:
   - **Team stats**: opponent defensive rankings, pace, home/away context.  
   - **Schedule data**: rest days, back-to-back games.
 - **Kaggle Datasets**: [NBA Betting Lines](https://www.kaggle.com/datasets/thedevastator/uncovering-hidden-trends-in-nba-betting-lines-20), [NBA Odds Data](https://www.kaggle.com/datasets/christophertreasure/nba-odds-data)  
-  - Historical betting lines and prop odds.  
-  - Provides ground truth "line" data to compare against actual outcomes.  
-  - Allows evaluation of how predictive our models are compared to betting markets.  
+  - Historical betting lines, including **player prop lines** (points, rebounds, assists, 3-pointers).  
+  - These prop lines serve as the target values for our predictions (did the player go over or under?).  
+  - Game-level lines (spreads, totals) provide additional context and benchmarks.  
 
 ---
 
