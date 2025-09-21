@@ -1,14 +1,15 @@
 # NBA Player Prop Prediction Project
 
 ## Project Description
-We will use the [nba_api](https://github.com/swar/nba_api) to collect NBA player game logs and team statistics in order to **predict whether a player will go over or under a given prop line** (e.g., points, rebounds, assists).  
+We will use the [nba_api](https://github.com/swar/nba_api) to collect NBA player game logs and team statistics in order to **predict whether a player will go over or under a given prop line** (e.g., points, rebounds, assists). We will also extend this idea to **team-based predictions**, such as forecasting the final team scores or game winners.
 
 Our goal is to build reproducible models that forecast prop outcomes better than simple baselines, while also producing clear visualizations of player performance trends.
 
 ---
 
 ## Project Goals
-- Predict the probability of players going over/under on common props (points, rebounds, assists, 3-pointers).  
+- Predict the probability of players going over/under on common props (points, rebounds, assists, 3-pointers).
+- Predict team-level outcomes such as final scores or game winners.
 - Benchmark against naive methods (e.g., season averages) to show improvement.  
 - Visualize how player performance interacts with matchup and game context.  
 - Ensure the workflow is fully reproducible from our GitHub repo.
@@ -21,6 +22,9 @@ We will use `nba_api` to pull:
 - **Game logs**: per-player, per-game history.  
 - **Team stats**: opponent defensive rankings, pace, home/away context.  
 - **Schedule data**: rest days, back-to-back games.
+- **Historical betting/odds datasets**:
+  - [Uncovering Hidden Trends in NBA Betting Lines (Kaggle)](https://www.kaggle.com/datasets/thedevastator/uncovering-hidden-trends-in-nba-betting-lines-20)
+  - [NBA Odds Data by Christophertreasure (Kaggle)](https://www.kaggle.com/datasets/christophertreasure/nba-odds-data)
 
 ---
 
