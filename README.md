@@ -20,6 +20,25 @@ We will use `nba_api` to pull:
 - **Box score data**: points, rebounds, assists, 3PT attempts/makes, minutes played.  
 - **Game logs**: per-player, per-game history.  
 - **Team stats**: opponent defensive rankings, pace, home/away context.  
-- **Schedule data**: rest days, back-to-back games.  
+- **Schedule data**: rest days, back-to-back games.
 
 ---
+
+## Modeling Plan
+
+---
+
+## Visualization
+
+---
+
+## Test Plan
+
+---
+
+## Group Members
+- Alim
+- Ash
+- Jonah
+- Justin
+- Shawn
