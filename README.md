@@ -1,7 +1,7 @@
 # NBA Player Prop Prediction Project
 
 ## Project Description
-We will use the [nba_api](https://github.com/swar/nba_api) to collect NBA player game logs and team statistics in order to **predict whether a player will go over or under a given prop line** (e.g., points, rebounds, assists). We will also extend this idea to **team-based predictions**, such as forecasting the final team scores or game winners.
+We will use the [nba_api](https://github.com/swar/nba_api) and historical betting datasets to collect NBA player game logs and team statistics in order to **predict whether a player will go over or under a given prop line** (e.g., points, rebounds, assists). We will also extend this idea to **team-based predictions**, such as forecasting the final team scores or game winners.
 
 Our goal is to build reproducible models that forecast prop outcomes better than simple baselines, while also producing clear visualizations of player performance trends.
 
@@ -17,14 +17,16 @@ Our goal is to build reproducible models that forecast prop outcomes better than
 ---
 
 ## Data Collection
-We will use `nba_api` to pull:  
-- **Box score data**: points, rebounds, assists, 3PT attempts/makes, minutes played.  
-- **Game logs**: per-player, per-game history.  
-- **Team stats**: opponent defensive rankings, pace, home/away context.  
-- **Schedule data**: rest days, back-to-back games.
-- **Historical betting/odds datasets**:
-  - [Uncovering Hidden Trends in NBA Betting Lines (Kaggle)](https://www.kaggle.com/datasets/thedevastator/uncovering-hidden-trends-in-nba-betting-lines-20)
-  - [NBA Odds Data by Christophertreasure (Kaggle)](https://www.kaggle.com/datasets/christophertreasure/nba-odds-data)
+We will use:
+- **nba_api**:  
+  - **Box score data**: points, rebounds, assists, 3PT attempts/makes, minutes played.  
+  - **Game logs**: per-player, per-game history.  
+  - **Team stats**: opponent defensive rankings, pace, home/away context.  
+  - **Schedule data**: rest days, back-to-back games.
+- **Kaggle Datasets**: [NBA Betting Lines](https://www.kaggle.com/datasets/thedevastator/uncovering-hidden-trends-in-nba-betting-lines-20), [NBA Odds Data](https://www.kaggle.com/datasets/christophertreasure/nba-odds-data)  
+  - Historical betting lines and prop odds.  
+  - Provides ground truth "line" data to compare against actual outcomes.  
+  - Allows evaluation of how predictive our models are compared to betting markets.  
 
 ---
 
@@ -38,7 +40,7 @@ We'll decide what works best once we explore the data more.
 ---
 
 ## Visualization
-We’ll make basic visualizations to help us understand trends and model performance, like:
+We'll make basic visualizations to help us understand trends and model performance, like:
 - Line plots of player stats over time.
 - Scatter plots showing relationships between features.
 - Heatmaps comparing teams or matchups.
